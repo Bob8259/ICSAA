@@ -1,0 +1,7 @@
+{
+  "Content-Type": "application/json",
+  "Access-Control-Allow-Origin": "azikaban.top",
+  "Access-Control-Allow-Methods": "azikaban.top",
+  "Access-Control-Allow-Headers": "azikaban.top",
+  "Access-Control-Allow-Credentials": true
+}
