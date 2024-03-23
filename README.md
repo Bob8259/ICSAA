@@ -22,7 +22,7 @@ CAPTCHA, which stands for Completely Automated Public Turing test to tell Comput
 ## Current concerns
 
 Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points of the current CAPTCHA. This [GitHub project](https://github.com/sml2h3/ddddocr) provides some solutions for some current CAPTCHA. Some of the following examples use the code or images from that project.
-
+Some of the following examples are from the Internet. The following examples are for research and study only. If you use the following examples to commit illegal acts, you will be responsible for the consequences
 
 1. **Traditional Text CAPTCHA**
    
