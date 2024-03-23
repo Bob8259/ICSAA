@@ -19,3 +19,14 @@ In this file: ISPAA\app\api\getCAPTCHA\route.js delete line 3 (`import { connect
 ## Introduction
 
 CAPTCHA, which stands for Completely Automated Public Turing test to tell Computers and Humans Apart, was designed to distinguish between human and bots, thus preventing bots from accessing certain websites. However, as AI becomes cheaper and better, the conventional CAPTCHA are under great threat. Nowadays AI can bypass most CAPTCHA with ease, which is a potential danger for most websites, especially those that want to prevent data scraping. There is a significant gap in how to improve the security of CAPTCHA since most of the studies were about bypassing CAPTCHA, how to design user-friendly CAPTCHA and privacy problems with CAPTCHA. This project proposed a new idea for CAPTCHA, aiming to fill the security gap.
+## Current concerns
+
+Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points for current CAPTCHA.
+
+1. Traditional Text CAPTCHA
+   This type of CAPTCHA requires the user to input the text which is written in a distorted way. With the development of OCR (Optical character recognition), this type of CAPTCHA can be bypassed easily. For example, Google Gemini and 通义千问 can recognize the CAPTCHA.
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text1.png)
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text2.png)
+
+
+
