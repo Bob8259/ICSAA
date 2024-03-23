@@ -9,7 +9,7 @@
 ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/zip.jpg)
 4, Unzip the file, and open it with VS Code.
 
-5, Add your Mongodb connection URI to the .env file. The CAPTCHA information will be uploaded to your database.
+5, Add your MongoDB connection URI to the .env file. The CAPTCHA information will be uploaded to your database.
 
 If you do not want to upload the data to your database. Delete this file: ISPAA\app\lib\db.js
 In this file: ISPAA\app\api\getCAPTCHA\route.js delete line 3 (`import { connectToDB } from "@/app/lib/db";`), line 94 (`await db.collection("CAPTCHA").insertOne(body);`) and line 106 (`await db.client.close();`).
@@ -21,7 +21,8 @@ In this file: ISPAA\app\api\getCAPTCHA\route.js delete line 3 (`import { connect
 CAPTCHA, which stands for Completely Automated Public Turing test to tell Computers and Humans Apart, was designed to distinguish between human and bots, thus preventing bots from accessing certain websites. However, as AI becomes cheaper and better, the conventional CAPTCHA are under great threat. Nowadays AI can bypass most CAPTCHA with ease, which is a potential danger for most websites, especially those that want to prevent data scraping. There is a significant gap in how to improve the security of CAPTCHA since most of the studies were about bypassing CAPTCHA, how to design user-friendly CAPTCHA and privacy problems with CAPTCHA. This project proposed a new idea for CAPTCHA, aiming to fill the security gap.
 ## Current concerns
 
-Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points for current CAPTCHA.
+Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points of the current CAPTCHA. This [GitHub project](https://github.com/sml2h3/ddddocr) provides some solutions for some current CAPTCHA. Some of the following examples use the code or images from that project.
+
 
 1. Traditional Text CAPTCHA
    This type of CAPTCHA requires the user to input the text which is written in a distorted way. With the development of OCR (Optical character recognition), this type of CAPTCHA can be bypassed easily. For example, Google Gemini and 通义千问 can recognize the CAPTCHA.
