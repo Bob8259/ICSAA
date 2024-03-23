@@ -27,11 +27,13 @@ Some of the following examples are from the Internet. The following examples are
 1. **Traditional Text CAPTCHA**
    
    This type of CAPTCHA requires the user to input the text which is written in a distorted way. With the development of OCR (Optical character recognition), this type of CAPTCHA can be bypassed easily. For example, Google Gemini and 通义千问 can recognize the CAPTCHA.
+   
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text1.png)
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text2.png)
 
-2. ** Image selection or Text selection**
+3. ** Image selection or Text selection**
    This type of CAPTCHA requires the user to select certain images from another image. Some Chinese version of CAPTCHA requires the user to select certain Chinese characters from another image. This can be bypassed using image searching or OCR. The following are some examples.
+   
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20question.png)
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20answer.png.png)
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text%20selection.png)
