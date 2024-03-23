@@ -24,7 +24,8 @@ CAPTCHA, which stands for Completely Automated Public Turing test to tell Comput
 Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points of the current CAPTCHA. This [GitHub project](https://github.com/sml2h3/ddddocr) provides some solutions for some current CAPTCHA. Some of the following examples use the code or images from that project.
 
 
-1. Traditional Text CAPTCHA
+1. **Traditional Text CAPTCHA**
+   
    This type of CAPTCHA requires the user to input the text which is written in a distorted way. With the development of OCR (Optical character recognition), this type of CAPTCHA can be bypassed easily. For example, Google Gemini and 通义千问 can recognize the CAPTCHA.
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text1.png)
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text2.png)
