@@ -30,5 +30,9 @@ Nowadays, there are various versions of CAPTCHA. However, none of those are secu
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text1.png)
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text2.png)
 
-
+2. ** Image selection or Text selection**
+   This type of CAPTCHA requires the user to select certain images from another image. Some Chinese version of CAPTCHA requires the user to select certain Chinese characters from another image. This can be bypassed using image searching or OCR. The following are some examples.
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20question.png)
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20answer.png.png)
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text%20selection.png)
 
