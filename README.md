@@ -1,11 +1,11 @@
 # CAPTCHA is dead, but not ICSAA
 
 ## Disclaimer
-The information provided in this article is for general informational purposes only. All information in the article is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information in the article.
+The information provided in this article is for general informational purposes only. All information in the article is provided in good faith, however, I make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information in the article.
 
-Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the article or reliance on any information provided on the article. Your use of the article and your reliance on any information in the article is solely at your own risk.
+Under no circumstance shall I have any liability to you for any loss or damage of any kind incurred as a result of the use of the article or reliance on any information provided on the article. Your use of the article and your reliance on any information in the article is solely at your own risk.
 
-This article may contain links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability or completeness by us.
+This article contains links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability or completeness by me.
 
 ## How to use ICSAA v1
 
