@@ -55,10 +55,14 @@ Some of the following examples are from the Internet. The following examples are
    2d rotation
 
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/2d%20rotation.png)
-6. **Other unsafe CAPTCHA**
+5. **Maze CAPTCHA**
+   This type of CAPTCHA is a recursive search problem. The obstacles can be detected using various methods, then path finding algorithm can be applied to solve the problem.
+   In some typical cases, this CAPTCHA is also vulnerable to force attack.
+   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+7. **Other unsafe CAPTCHA**
    Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Because they can be bypassed by AI or vulnerable to force attack. Here are some examples.
    [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
-   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+   
    reCAPTCHA example
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
 
