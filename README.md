@@ -75,4 +75,4 @@ There are some CAPTCHA which look promising since there is no solution found. Su
 ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/safe%20captcha.png)
 
 However, the first CAPTCHA has some potential weak points. The algorithms need to track the yellow line and find the endpoint, which is not hard to do.
-The second CAPTCHA is better since it is hard for AI to judge whether an object is complete or not. However, the CAPTCHA in this example is vulnerable to force attack. But this idea can be applied to the 2D puzzle CAPTCHA such that it will be safe against force attack. Further discussion will be made later.
+The second match puzzle CAPTCHA is better since it is hard for AI to judge whether an object is complete or not. However, the CAPTCHA in this example is vulnerable to force attack. But this idea can be applied to the 2D puzzle CAPTCHA such that it will be safe against force attack. Further discussion will be made later.
