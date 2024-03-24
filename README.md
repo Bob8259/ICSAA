@@ -41,4 +41,9 @@ Some of the following examples are from the Internet. The following examples are
 3. **Slice or Puzzle CAPTCHA**
    This type CAPTCHA can be solved using edge detection algorithm, or force attack. Here are some examples. [Force attack example.](https://dai.ly/k2ai24YfIvQxXVAj1jG)
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/slice.png)
-   
+4. **Other unsafe CAPTCHA**
+   Most of other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Here are some examples.
+   [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
+   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+   reCAPTCHA example
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
