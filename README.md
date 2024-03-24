@@ -76,3 +76,30 @@ There are some CAPTCHA which look promising since there is no solution found. Su
 
 However, the first CAPTCHA has some potential weak points. The algorithms need to track the yellow line and find the endpoint, which is not hard to do.
 The second match puzzle CAPTCHA is better since it is hard for AI to judge whether an object is complete or not. However, the CAPTCHA in this example is vulnerable to brute force attacks. But this idea can be applied to the 2D puzzle CAPTCHA such that it will be safe against brute force attacks. Further discussion will be made later.
+## Definition
+What makes a CAPTCHA a good CAPTCHA? A good CAPTCHA should meet the following requirements. 
+1. User-friendly level
+User-friendly means whether a real person can solve the CAPTCHA in a short time or not. 
+reCAPTCHA takes 4-15 seconds to solve while a 2D rotation CAPTCHA takes 2-4 seconds to solve. So 2D rotation CAPTCHA is more user-friendly.
+2. Data-friendly level
+Data-friendly means whether the CAPTCHA requires a large amount of data to generate a CAPTCHA.
+For example, reCAPTCHA needs a large amount of images  to generate a random CAPTCHA while a text CAPTCHA only needs to store 10 numbers and 26 letters. So text CAPTCHA is more data-friendly
+3. Anti-bot recognition level
+Anti-bot recognition means whether the CAPTCHA can be recognized and solved by a bot. For example, reCAPTCHA can be easily recognized and solved by a bot while the matching puzzle can not be solved by a bot. So matching puzzle CAPTCHA has a high anti-bot recognition level.
+4. Anti-brute force attack level
+Anti-brute force attack means whether the CAPTCHA can be bypassed brutally. For example, slice CAPTCHA can be bypassed brutally while reCAPTCHA can not. So reCAPTCHA has a higher anti-brute force attack level.
+
+The following table shows the information for some common CAPTCHA, the full mark for each attribute is 5. The higher the mark means the better.
+
+|  Name | User-friendly  |Data friendly | Anti bot recognition level  | Anti brute force attack level |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Text CAPTCHA| 5 | 5| 0  |  5 |
+| Selection CAPTCHA| 4 | 4| 1  |  4 |
+| Slice CAPTCHA|5 | 5| 0  |  1 |
+| 2D Rotation CAPTCHA| 4 | 3| 1  |  1 |
+| 3D Rotation CAPTCHA| 4 | 3| 3  |  2 |
+| Maze CAPTCHA| 3 | 4| 2  |  4 |
+|reCAPTCHA|1|0|1|5|
+|NoCAPTCHA|5|5|0|0|
+|ICSAA|2|5|5|5|
+   
