@@ -1,5 +1,12 @@
 # CAPTCHA is dead, but not ICSAA
 
+## Disclaimer
+The information provided in this article is for general informational purposes only. All information in the article is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information in the article.
+
+Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the article or reliance on any information provided on the article. Your use of the article and your reliance on any information in the article is solely at your own risk.
+
+This article may contain links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability or completeness by us.
+
 ## How to use ICSAA v1
 
 1, Download Node js  v21.7.1. The newer version is supposed to work but not guaranteed.
@@ -22,6 +29,7 @@ In this file: ISPAA\app\api\getCAPTCHA\route.js delete line 3 (`import { connect
 ## Introduction
 
 CAPTCHA, which stands for Completely Automated Public Turing test to tell Computers and Humans Apart, was designed to distinguish between human and bots, thus preventing bots from accessing certain websites. However, as AI becomes cheaper and better, the conventional CAPTCHA are under great threat. Nowadays AI can bypass most CAPTCHA with ease, which is a potential danger for most websites, especially those that want to prevent data scraping. There is a significant gap in how to improve the security of CAPTCHA since most of the studies were about bypassing CAPTCHA, how to design user-friendly CAPTCHA and privacy problems with CAPTCHA. This project proposed a new idea for CAPTCHA, aiming to fill the security gap. The name ICSAA stands for Image CAPTCHA which is Secure Against AI. This project is the base version, and the advanced version will be released soon.
+
 ## Current concerns
 
 Nowadays, there are various versions of CAPTCHA. However, none of those are secure against bots. This paragraph will discuss the potential weak points of the current CAPTCHA. This [GitHub project](https://github.com/sml2h3/ddddocr) provides some solutions for some current CAPTCHA. Some of the following examples use the code or images from that project.
