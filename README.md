@@ -47,10 +47,14 @@ Some of the following examples are from the Internet. The following examples are
    [Force attack example.](https://dai.ly/k2ai24YfIvQxXVAj1jG)
    
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/slice.png)
-4. **3D rotation CAPTCHA**
+4. **Rotation CAPTCHA**
    This type of CAHPTCHA is a classification problem, which can be solved using AI or force attacks. Here are some examples.
-   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/3d%20rotation.png)
+   3d rotation
    
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/3d%20rotation.png)
+   2d rotation
+
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/2d%20rotation.png)
 6. **Other unsafe CAPTCHA**
    Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Because they can be bypassed by AI or vulnerable to force attack. Here are some examples.
    [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
