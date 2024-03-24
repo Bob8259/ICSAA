@@ -106,7 +106,7 @@ The following table shows the information for some common CAPTCHA, the full mark
 
    It can be seen that though this project is not very user-friendly, this project is extremely safe against any type of bot or AI.
    
-## Methodology
+## Methodology and Result
 The following part discusses the principle of ICSAA. First, ICSAA chooses a meaningful background. The background can be a random object or a random sightseeing. During the test, it was found that for OCR or other text recognition models, the background does not significantly affect the model performance. One of the possible reasons is that the first step for OCR is to separate the text from the background. However, the background may affect humans significantly. The last step is to increase the contract. It is found that changing the contrast does not affect the OCR, but affects humans.
 Here are some examples.
 
@@ -121,3 +121,9 @@ The next step is to add some random noise and blur. In ICSAA, gaussian noise and
 This is an example:
 
 ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/ICSAA%20example.png)
+
+## Limitation
+There are several limitations to this project. The first limitation is that the user samples are limited. Another limitation is that in the definition part, the judgement of the user-friendly level might be objective or biased. The data-friendly level is also hard to decide since the CAPTCHA details are not open to the public. Besides, the judgement of the anti-bot detection level might also be biased. Because most of the models are found on the Internet and are not fine-tuned for ICSAA. The last limitation is that ICSAA is not user-friendly enough since some users complain that it is difficult to recognize the letters or numbers.
+
+## Discussion and Future
+Theoretically, ICSAA can also be bypassed by a find-tuned OCR model. During the testing, it was found that some models are robust to noise while some are robust to direct blocking (e.g. thick lines). So a fine-tuned model is supposed to identify the letters. Besides, after combining both noise and thick lines, the letters are hard for humans to recognize. In the future, I will work on a new CAPTCHA, which will be user-freiendly, data-friendly, anti-bot recognition and anti-brute force attack.
