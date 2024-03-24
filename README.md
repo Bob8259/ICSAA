@@ -56,13 +56,22 @@ Some of the following examples are from the Internet. The following examples are
 
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/2d%20rotation.png)
 5. **Maze CAPTCHA**
-   This type of CAPTCHA is a recursive search problem. The obstacles can be detected using various methods, then path finding algorithm can be applied to solve the problem.
+   This type of CAPTCHA is a recursive search problem. The obstacles can be detected using various methods, then path-finding algorithm can be applied to solve the problem.
    In some typical cases, this CAPTCHA is also vulnerable to force attack.
    [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+
+6. **NoCAPTCHA CAPTCHA**
+   No CAPTCHA was designed to improve the user experience by 'removing' the CAPTCHA interface while detecting the bot or automated action. Though it seems promising, current trick such as [DrissionPage](https://github.com/g1879/DrissionPage?tab=readme-ov-file) can bypass it eaisly. 
+   
 7. **Other unsafe CAPTCHA**
    Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Because they can be bypassed by AI or vulnerable to force attack. Here are some examples.
    [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
    
    reCAPTCHA example
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
-
+   
+## Analyzation
+There are some CAPTCHA which look promising since there is no solution found. Such are the following two CAPTCHA.
+![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/safe%20captcha.png)
+However, the first CAPTCHA has some potential weak points. The algorithms need to track the yellow line and find the endpoint, which is not hard to do.
+The second CAPTCHA is better since it is hard for AI to detect if an object is complete or not. However, the CAPTCHA in this example is vulnerable to force attack. But this idea can be applied to the 2D puzzle CAPTCHA such that it will be safe against force attack. 
