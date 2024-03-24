@@ -42,22 +42,19 @@ Some of the following examples are from the Internet. The following examples are
    
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text%20selection.png)
 4. **Slice or Puzzle CAPTCHA**
-   This type CAPTCHA can be solved using an edge detection algorithm, or force attack. Here are some examples.
+   This type of CAPTCHA can be solved using an edge detection algorithm, or force attacks. Here are some examples.
    
    [Force attack example.](https://dai.ly/k2ai24YfIvQxXVAj1jG)
    
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/slice.png)
-5. **Other unsafe CAPTCHA**
-   Most of other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Here are some examples.
-   [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
+4. **3D rotation CAPTCHA**
+   This type of CAHPTCHA is a classification problem, which can be solved using AI or force attacks. Here are some examples.
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/3d%20rotation.png)
    
-   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
-   
-   reCAPTCHA example
 6. **Other unsafe CAPTCHA**
-   Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Here are some examples.
+   Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Because they can be bypassed by AI or vulnerable to force attack. Here are some examples.
    [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
    [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
    reCAPTCHA example
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
-   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
+
