@@ -29,16 +29,35 @@ Some of the following examples are from the Internet. The following examples are
    This type of CAPTCHA requires the user to input the text which is written in a distorted way. With the development of OCR (Optical character recognition), this type of CAPTCHA can be bypassed easily. For example, Google Gemini and 通义千问 can recognize the CAPTCHA.
    
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text1.png)
+   
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text2.png)
 
-2. **Image selection or Text selection**
+3. **Image selection or Text selection**
    
    This type of CAPTCHA requires the user to select certain images from another image. Some Chinese version of CAPTCHA requires the user to select certain Chinese characters from another image. This can be bypassed using image searching or OCR. The following are some examples.
    
    ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20question.png)
-   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20answer.png.png)
-   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text%20selection.png)
-3. **Slice or Puzzle CAPTCHA**
-   This type CAPTCHA can be solved using edge detection algorithm, or force attack. Here are some examples. [Force attack example.](https://dai.ly/k2ai24YfIvQxXVAj1jG)
-   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/slice.png)
    
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/item%20selection%20answer.png.png)
+   
+   ![](https://raw.githubusercontent.com/Bob8259/IPSAA/main/image/text%20selection.png)
+4. **Slice or Puzzle CAPTCHA**
+   This type CAPTCHA can be solved using an edge detection algorithm, or force attack. Here are some examples.
+   
+   [Force attack example.](https://dai.ly/k2ai24YfIvQxXVAj1jG)
+   
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/slice.png)
+5. **Other unsafe CAPTCHA**
+   Most of other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Here are some examples.
+   [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
+   
+   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+   
+   reCAPTCHA example
+6. **Other unsafe CAPTCHA**
+   Most other CAPTCHA such as reCAPTCHA or FunCAPTCHA are also unsafe. Here are some examples.
+   [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
+   [Avoid object CAPTCHA](https://dai.ly/kXmeubCgUu72HXAj1jI)
+   reCAPTCHA example
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
+   ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
