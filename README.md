@@ -105,3 +105,18 @@ The following table shows the information for some common CAPTCHA, the full mark
 
    It can be seen that though this project is not very user-friendly, this project is extremely safe against any type of bot or AI.
    
+## Methodology
+The following part disscusses the principle of ICSAA. First, ICSAA chosese a meaningful background. The background can be a random object or a random sightseeing. During the test, it is found that for OCR or other text recognition model, the background does not significantly affact the model performance. One of the possible reason is that the first step for OCR is to separate the text from the background. However, the background may affact human significantly. The last step is to increase the contract. It is found that changing the contrast does not affact the OCR, but affacts human.
+Here are some examples.
+
+![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/comparison.png)
+
+Then, ICSAA selects some random letters or numbers. In order to let human identify the content easily, some confusing letters or numbers are removed. For example, I and l are confusing, 0 and o are confusing and 2 and z might be confusing in some particular cases. 8 and B might be confusing when distorted.
+
+In the next steps, ICSAA applies a mosaic effect to the content, and then adds some distractions to the image. The distractions are some random dots and thick lines to block a random part of the letters. 
+
+The next step is to add some random noise and blur. In ICSAA, gaussian noise and gaussian blur are chosen. It is true that gaussian blur have denoise effect, but ICSAA can adjust the noise level and blur kernel size to get a good result. The purpose of adding noise and then blur is to make the letter blend into the background, making it harder for OCR to identify while keeping it easy for human to identify.
+
+This is an example:
+
+![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/ICSAA%20example.png)
