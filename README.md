@@ -68,6 +68,7 @@ Some of the following examples are from the Internet. The following examples are
    [3d Rotation CAPTCHA force attack](https://dai.ly/k3NDWDtKwK7zzTAj0Y6)
    
    reCAPTCHA example
+   
    ![](https://raw.githubusercontent.com/Bob8259/ICSAA/main/image/reCAPTCHA.png)
    
 ## Analyzation
