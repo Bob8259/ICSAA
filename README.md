@@ -115,7 +115,7 @@ The following table shows the information for some common CAPTCHA, the full mark
 | Maze CAPTCHA| 3 | 4| 2  |  4 |
 |reCAPTCHA|1|0|1|5|
 |NoCAPTCHA|5|5|0|0|
-|ICSAA(this project)|2|5|5|5|
+|ICSAA(this project)|1|5|5|5|
 
    It can be seen that though this project is not very user-friendly, this project is extremely safe against any type of bot or AI.
    
